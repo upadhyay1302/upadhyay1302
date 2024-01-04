@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <h1 align="center">Hi 👋, I'm Mayank</h1>
-<h3 align="center">A passionate developer from Canada</h3>
+<h3 align="center">A passionate developer from Toronto, Canada</h3>
 
 - 🌱 I’m currently learning **React, C++**
 
