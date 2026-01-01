@@ -36,22 +36,12 @@ Ask me about **Python**, I’ve used it extensively for automation, data analysi
 
 ---
 
-## 📌 Featured Projects
-
-> 🔗 *Add links to your repositories here with short descriptions.*
-
-- **Project Name** — One-line summary of what it does
-- **Another Project** — What tech you used + what it solves
-- More awesome things coming soon 🚀
-
----
-
 ## 📫 Get In Touch
 
 <p>
   ✉️ mayankpadhyay1302@gmail.com  
-  🔗 <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>  
-  🧑‍💻 <a href="https://yourportfolio.com">Portfolio/Website (optional)</a>
+  🔗 <a href="https://www.linkedin.com/in/mayank-upadhyay-/">LinkedIn</a>  
+  🧑‍💻 <a href="https://mayankupadhyay.netlify.app">Portfolio/Website (optional)</a>
 </p>
 
 ---
