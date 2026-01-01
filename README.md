@@ -41,7 +41,7 @@ Ask me about **Python**, I’ve used it extensively for automation, data analysi
 <p>
   ✉️ mayankpadhyay1302@gmail.com  
   🔗 <a href="https://www.linkedin.com/in/mayank-upadhyay-/">LinkedIn</a>  
-  🧑‍💻 <a href="https://mayankupadhyay.netlify.app">Portfolio/Website (optional)</a>
+  🧑‍💻 <a href="https://mayankupadhyay.netlify.app">Portfolio/Website</a>
 </p>
 
 ---
