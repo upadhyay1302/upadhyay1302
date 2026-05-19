@@ -1,51 +1,99 @@
 <div align="center">
-  <h1>👋 Hi there, I'm Mayank</h1>
-  <p>A passionate Developer from Toronto 🇨🇦</p>
+
+# 👋 Hey there, I'm Mayank Upadhyay
+
+### Software Engineering Student @ University of Waterloo | Full-Stack Developer 
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mayankupadhyay.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayank-upadhyay-/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/maayankkk/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m7upadhy@uwaterloo.ca)
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Software+Engineering+Co-op+Student;Full-Stack+Developer;Machine+Learning+Engineer;Building+Scalable+Solutions" alt="Typing SVG" />
+
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-I'm a dedicated coder who loves building things that solve real problems.  
-Currently, I’m focused on **React** and strengthening my **C++** skills — especially for competitive environments and efficient software.  
-Ask me about **Python**, I’ve used it extensively for automation, data analysis, and backend tasks.
-
----
-
-## 🚀 What I Do
-
-- 🌱 Learning and building with **React**, **TypeScript**, and **Modern Frontend practices**
-- 🧠 Strong foundations in **Python**, **C++**, and **Data Handling**
-- 💡 Enjoy breaking down complex problems and building clean, maintainable code
+I'm a passionate Software Engineering student based in Toronto, currently studying at **University of Waterloo**. I specialize in building high-performance applications, leveraging machine learning, and creating scalable full-stack solutions.
+- 🔭 Currently working on expanding my project portfolio
+- 🌱 Focused on Full-Stack Development, Machine Learning, NLP, and System Design
+- 📍 Based in Toronto, Ontario
+- 🎯 2026 Goals: Contribute to more open-source projects and building production-ready applications with real-world impact
 
 ---
 
-## 🔧 Languages & Tools
+## 💻 Tech Stack
 
-<p align="left">
-  <a href="https://www.python.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="32" height="32" alt="Python" /></a>
-  <a href="https://reactjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="32" height="32" alt="React" /></a>
-  <a href="https://www.cprogramming.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="32" height="32" alt="C" /></a>
-  <a href="https://www.w3schools.com/cpp/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="32" height="32" alt="C++" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="32" height="32" alt="JavaScript" /></a>
-  <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="32" height="32" alt="MySQL" /></a>
-  <a href="https://opencv.org/"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="32" height="32" alt="OpenCV" /></a>
-  <a href="https://pandas.pydata.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="32" height="32" alt="Pandas" /></a>
-</p>
+### Languages
+![Python](https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Haskell](https://img.shields.io/badge/-5D4F85?style=flat-square&logo=haskell&logoColor=white)
+![R](https://img.shields.io/badge/-276DC3?style=flat-square&logo=r&logoColor=white)
+![Bash](https://img.shields.io/badge/-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![SQL](https://img.shields.io/badge/-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/-092E20?style=flat-square&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/-000000?style=flat-square&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring](https://img.shields.io/badge/-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![.NET](https://img.shields.io/badge/-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+### Machine Learning & AI
+![TensorFlow](https://img.shields.io/badge/-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/-D00000?style=flat-square&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Pandas](https://img.shields.io/badge/-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-013243?style=flat-square&logo=numpy&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/🤗-FFD21E?style=flat-square)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![AWS](https://img.shields.io/badge/-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Jira](https://img.shields.io/badge/-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Postman](https://img.shields.io/badge/-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ---
 
-## 📫 Get In Touch
+## 🤝 Let's Connect!
 
-<p>
-  ✉️ mupadhyay1302@gmail.com  
-  🔗 <a href="https://www.linkedin.com/in/mayank-upadhyay-/">LinkedIn</a>  
-  🧑‍💻 <a href="https://mayankupadhyay.netlify.app">Portfolio/Website</a>
-</p>
+I'm always open to interesting conversations, collaboration opportunities, and impactful projects. Feel free to reach out!
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-2E9EF7?style=for-the-badge)](https://mayankupadhyay.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mayank-upadhyay-/)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m7upadhy@uwaterloo.ca)
+
+</div>
 
 ---
 
 <div align="center">
-  ⭐ Thanks for visiting my profile!
+
+### 💭 Quote of the Day
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+---
+
 </div>
