@@ -2,7 +2,7 @@
 
 # 👋 Hey there, I'm Mayank Upadhyay
 
-### Software Engineering Student @ University of Waterloo | Full-Stack Developer 
+### 3rd Year Software Engineering Student @ University of Waterloo | Full-Stack Developer 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mayankupadhyay.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayank-upadhyay-/)
@@ -17,7 +17,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate Software Engineering student based in Toronto, currently studying at **University of Waterloo**. I specialize in building high-performance applications, leveraging machine learning, and creating scalable full-stack solutions.
+I'm a passionate 3rd Year Software Engineering student based in Toronto, currently studying at **University of Waterloo**. I specialize in building high-performance applications, leveraging machine learning, and creating scalable full-stack solutions.
 - 🔭 Currently working on expanding my project portfolio
 - 🌱 Focused on Full-Stack Development, Machine Learning, NLP, and System Design
 - 📍 Based in Toronto, Ontario
