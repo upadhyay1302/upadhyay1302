@@ -77,6 +77,7 @@ I'm a passionate 3rd Year Software Engineering student based in Toronto, current
 ## 🤝 Let's Connect!
 
 I'm always open to interesting conversations, collaboration opportunities, and impactful projects. Feel free to reach out!
+Looking for Winter 2027 Coop opportunities 
 
 <div align="center">
 
