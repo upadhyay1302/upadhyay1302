@@ -4,6 +4,8 @@
 
 ### 3rd Year Software Engineering Student @ University of Waterloo | Full-Stack Developer 
 
+Looking for Winter 2027 Coop opportunities 
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mayankupadhyay.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayank-upadhyay-/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/maayankkk/)
