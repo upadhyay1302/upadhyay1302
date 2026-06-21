@@ -19,7 +19,7 @@ Looking for Winter 2027 Coop opportunities
 
 ## 🚀 About Me
 
-I'm a passionate 3rd Year Software Engineering student based in Toronto, currently studying at **University of Waterloo**. I specialize in building high-performance applications, leveraging machine learning, and creating scalable full-stack solutions.
+I'm a passionate 3rd Year Software Engineering student (3B) based in Toronto, currently studying at **University of Waterloo**. I specialize in building high-performance applications, leveraging machine learning, and creating scalable full-stack solutions.
 - 🔭 Currently working on expanding my project portfolio
 - 🌱 Focused on Full-Stack Development, Machine Learning, NLP, and System Design
 - 📍 Based in Toronto, Ontario
