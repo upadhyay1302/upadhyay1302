@@ -35,7 +35,6 @@ I'm a passionate 3rd Year Software Engineering student (3B) based in Toronto, cu
 ![TypeScript](https://img.shields.io/badge/-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![C](https://img.shields.io/badge/-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Haskell](https://img.shields.io/badge/-5D4F85?style=flat-square&logo=haskell&logoColor=white)
 ![R](https://img.shields.io/badge/-276DC3?style=flat-square&logo=r&logoColor=white)
