@@ -1,5 +1,32 @@
 <div align="center">
 
+<img src="./banner.svg" width="800" alt="Mayank Upadhyay" />
+
+<br>
+<img src="./divider-terminal.svg" width="800" alt="Terminal" />
+
+<img src="./panel-whoami.svg" width="387" alt="whoami" valign="top" />
+<img src="./panel-neofetch.svg" width="396" alt="neofetch" valign="top" />
+
+<br>
+<img src="./divider-activity.svg" width="800" alt="GitHub Activity" />
+
+<img src="https://streak-stats.demolab.com/?user=upadhyay1302&theme=dark&background=0D1117&border=30363D&stroke=30363D&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideLabels=8B949E&currStreakNum=F0F6FC&sideNums=F0F6FC&hide_border=true" width="800" alt="GitHub streak stats" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=upadhyay1302&bg_color=0D1117&color=8B949E&line=F0883E&point=F0883E&area=true&area_color=F0883E&title_color=F0F6FC&hide_border=true&custom_title=GitHub%20Activity%20(Last%2031%20Days)" width="800" alt="GitHub activity graph" />
+
+<br>
+<img src="./divider-connect.svg" width="800" alt="Let's connect" />
+
+<a href="https://mayank-portfolio-roan.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=F0883E" /></a>
+<a href="https://www.linkedin.com/in/mayank-upadhyay-/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=F0883E" /></a>
+<a href="https://github.com/upadhyay1302" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=F0883E" /></a>
+<a href="mailto:m7upadhy@uwaterloo.ca" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=F0883E" /></a>
+
+</div>
+
+<!-- <div align="center">
+
 # 👋 Hey there, I'm Mayank Upadhyay
 
 ### 3rd Year Software Engineering Student @ University of Waterloo | Full-Stack Developer 
@@ -98,4 +125,4 @@ Looking for Winter 2027 Coop opportunities
 
 ---
 
-</div>
+</div> -->
