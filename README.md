@@ -11,9 +11,7 @@
 <br>
 <img src="./divider-activity.svg" width="800" alt="GitHub Activity" />
 
-<img src="https://streak-stats.demolab.com/?user=upadhyay1302&theme=dark&background=0D1117&border=30363D&stroke=30363D&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideLabels=8B949E&currStreakNum=F0F6FC&sideNums=F0F6FC&hide_border=true" width="800" alt="GitHub streak stats" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=upadhyay1302&bg_color=0D1117&color=8B949E&line=F0883E&point=F0883E&area=true&area_color=F0883E&title_color=F0F6FC&hide_border=true&custom_title=GitHub%20Activity%20(Last%2031%20Days)" width="800" alt="GitHub activity graph" />
+<img src="./panel-contributions.svg" width="800" alt="GitHub contribution activity" />
 
 <br>
 <img src="./divider-connect.svg" width="800" alt="Let's connect" />
