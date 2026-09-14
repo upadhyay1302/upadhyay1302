@@ -1,0 +1,38 @@
+name: Update contribution panel
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # runs once a day at 06:00 UTC
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate panel-contributions.svg from real GitHub data
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_USERNAME: upadhyay1302
+          OUTPUT_PATH: panel-contributions.svg
+        run: python scripts/generate_contributions.py
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add panel-contributions.svg
+          git diff --quiet --cached || git commit -m "chore: refresh contribution panel [skip ci]"
+          git push
