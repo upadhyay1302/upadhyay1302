@@ -4,20 +4,29 @@ Fetches real GitHub contribution data via the GitHub GraphQL API
 and generates panel-contributions.svg in the terminal-window style
 used across this profile README.
 
-Requires an environment variable GH_TOKEN with a token that has
-access to read the target user's public contribution data.
+Uses an environment variable GH_TOKEN with a token that has access to read
+the target user's public contribution data. The token is optional: if it is
+missing, expired or revoked, the script falls back to GitHub's public
+contributions page so the scheduled job keeps working.
 """
 import os
+import re
 import sys
 import json
+import datetime
+import urllib.error
 import urllib.request
 
 GITHUB_USERNAME = os.environ.get("GITHUB_USERNAME", "upadhyay1302")
 TOKEN = os.environ.get("GH_TOKEN")
+PUBLIC_CONTRIBUTIONS_URL = f"https://github.com/users/{GITHUB_USERNAME}/contributions"
 
-if not TOKEN:
-    print("ERROR: GH_TOKEN environment variable is not set.", file=sys.stderr)
-    sys.exit(1)
+
+def warn(message):
+    """Print a warning, and surface it in the GitHub Actions run summary."""
+    print(f"WARNING: {message}", file=sys.stderr)
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print(f"::warning::{message}")
 
 QUERY = """
 query($login: String!) {
@@ -38,7 +47,7 @@ query($login: String!) {
 }
 """
 
-def fetch_contributions():
+def fetch_contributions_from_api():
     body = json.dumps({"query": QUERY, "variables": {"login": GITHUB_USERNAME}}).encode()
     req = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -54,6 +63,74 @@ def fetch_contributions():
     if "errors" in data:
         raise RuntimeError(data["errors"])
     return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+
+
+def fetch_contributions_from_public_page():
+    """Read the same per-day data from GitHub's public contributions page.
+
+    This needs no token, so the scheduled job still works when GH_PAT has
+    expired. Returns the same shape as the GraphQL contribution calendar.
+    """
+    req = urllib.request.Request(PUBLIC_CONTRIBUTIONS_URL, headers={"User-Agent": GITHUB_USERNAME})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        html = resp.read().decode("utf-8", "replace")
+
+    cell_dates = {}
+    for tag in re.findall(r'<td[^>]*data-date="[^"]+"[^>]*>', html):
+        date = re.search(r'data-date="(\d{4}-\d{2}-\d{2})"', tag)
+        cell_id = re.search(r'id="(contribution-day-component-\d+-\d+)"', tag)
+        if date and cell_id:
+            cell_dates[cell_id.group(1)] = date.group(1)
+
+    counts = {}
+    for m in re.finditer(
+        r'<tool-tip[^>]*for="(contribution-day-component-\d+-\d+)"[^>]*>([^<]*)</tool-tip>', html
+    ):
+        day_id, text = m.group(1), m.group(2).strip()
+        if day_id not in cell_dates:
+            continue
+        count = re.match(r"(\d+) contributions?", text)
+        counts[cell_dates[day_id]] = int(count.group(1)) if count else 0
+
+    if len(counts) < 300:
+        raise RuntimeError(
+            "Could not read the contribution calendar from "
+            f"{PUBLIC_CONTRIBUTIONS_URL} (only parsed {len(counts)} days)."
+        )
+
+    # Group days into columns the way GitHub's calendar does: each week starts
+    # on Sunday, and GitHub numbers weekdays with Sunday as 0.
+    weeks = []
+    days = sorted((datetime.date.fromisoformat(d), c) for d, c in counts.items())
+    for day, count in days:
+        weekday = (day.weekday() + 1) % 7
+        if not weeks or weekday == 0:
+            weeks.append({"contributionDays": []})
+        weeks[-1]["contributionDays"].append(
+            {"date": day.isoformat(), "weekday": weekday, "contributionCount": count}
+        )
+
+    return {
+        "totalContributions": sum(count for _, count in days),
+        "weeks": weeks,
+    }
+
+
+def fetch_contributions():
+    if not TOKEN:
+        warn("GH_TOKEN is not set; using GitHub's public contributions page instead.")
+        return fetch_contributions_from_public_page()
+    try:
+        return fetch_contributions_from_api()
+    except urllib.error.HTTPError as exc:
+        if exc.code not in (401, 403):
+            raise
+        warn(
+            f"GitHub rejected GH_TOKEN with HTTP {exc.code} (most likely an expired or "
+            "revoked PAT); using GitHub's public contributions page instead. "
+            "Refresh the GH_PAT repository secret to use the API again."
+        )
+        return fetch_contributions_from_public_page()
 
 
 def level_for_count(count, max_count):
